@@ -6,7 +6,7 @@
 
 void insertion_sort_list(listint_t **list)
 {
-	      listint_t *new_node, *pt, *aux;
+	listint_t *new_node, *pt, *aux;
 
 	if (list == NULL)
 		return;
